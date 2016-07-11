@@ -1,0 +1,77 @@
+﻿p{ line-height: 1em; }
+html {
+	padding:0;
+	margin:0;
+}
+h1 {
+	margin:0;
+	padding:10px 0 0;
+	line-height:1.2em;
+	text-transform:none;
+    color:orange;
+	text-decoration:none;
+    font:italic 40px/1.2em Arial, Helvetica, sans-serif;
+    letter-spacing:-1px;
+    text-align:center;
+        
+}
+a{
+	color:orange;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background-image:url("back.jpg");background-repeat:repeat-x;
+}
+img.main
+{
+width:100px;
+height:100px;
+position:relative;
+-webkit-animation-name:myfirst;
+-webkit-animation-duration:5s;
+-webkit-animation-timing-function:linear;
+-webkit-animation-delay:2s
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+animation:myfirst 5s;
+animation-name:myfirst;
+animation-duration:5s;
+animation-timing-function:linear;
+animation-delay:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+@-webkit-keyframes myfirst
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:200px; top:0px;}
+50%  {background:blue; left:200px; top:200px;}
+75%  {background:green; left:0px; top:200px;}
+100% {background:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+0%   {background:red; left:0px; top:0px;}
+25%  {background:yellow; left:200px; top:0px;}
+50%  {background:blue; left:200px; top:200px;}
+75%  {background:green; left:0px; top:200px;}
+100% {background:red; left:0px; top:0px;}
+}
+img{
+    width:120px;
+height:120px;
+background:red;
+position:relative;
+-webkit-animation:myfirst 5s; 
+animation:myfirst 5s;
+
+}

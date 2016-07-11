@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Investment Calculator</title>
+    
+</head>
+<body>
+    <script src="investment.js" type="text/javascript">
+        
+
+    </script>
+    <h1>INVESTMENT CALCULATOR</h1>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <table align="center" bgcolor=#FFFFFF border=5 cellpadding=5>
+        <tr bgcolor=#B6D4D2 align="center">
+            <td>
+                <table>
+                    <tr>
+                        <td><strong>Initial Investment :</strong></td>
+                        <td><input type="number" id="initialInvestment" autofocus onkeydown="enableButton();" /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Monthly Deposit :</strong></td>
+                        <td><input type="number" id="monthlyDeposit" /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Yearly Interest Rate :</strong></td>
+                        <td><input type="number" id="interestRate" /></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Number of Months :</strong> </td>
+                        <td><input type="number" id="months" /></td>
+            </td>
+        </tr>
+    </table>
+
+    <button class="display" onclick="display();disbaleButton()" id="Display">Display Investment</button>
+    </tr>
+    <tr bgcolor=#B6D4D2 align="center">
+        <td>
+            <table class="investment" align="center" border="4" id="growthTable" hidden>
+                <thead>
+                    <tr>
+    <th><strong>Month</strong></th>
+    <th><strong>Investment Value</strong></th>
+                    </tr>
+                </thead>
+            </table>
+            </td></tr>
+    
+        </table>
+</body>
+</html>

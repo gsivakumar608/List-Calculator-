@@ -1,0 +1,47 @@
+﻿body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#6eaeca;
+	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+	background:#dddddd url(images.jpg) repeat-x left top;
+}
+html {
+	padding:0;
+	margin:0;
+}
+h1 {
+	margin:0;
+	padding:130px 0 0;
+	line-height:1.2em;
+	text-transform:none;
+    color:#1b0505;
+	text-decoration:none;
+    font:italic 40px/1.2em Arial, Helvetica, sans-serif;
+    letter-spacing:-1px;
+    text-align:center;
+}
+p {
+    font-size:20px;
+    
+}
+table{ 
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    
+}
+ table.investment td {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse:collapse;
+    
+            background-color:black;
+    }
+th{
+     background-color:#a9b7bd;
+}
+tr strong{
+    font-size:12px;
+    color:blue;
+}
